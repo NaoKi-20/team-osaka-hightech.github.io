@@ -1,24 +1,24 @@
 ## Quick Start
 
-感谢使用我的博客主题，下面跟随一些简单操作快速生成你的站点/文档/展示页面吧~无需命令行~
+私のブログテーマを使っていただきありがとうございます。以下の簡単なアクションに従うだけで、サイト/ドキュメント/ショーケースのページを素早く生成することができます～コマンドラインは不要です～。
 
-[在 Github 上阅读此页](https://github.com/wu-kan/jekyll-theme-WuK)
+[このページをGithubで読む](https://github.com/wu-kan/jekyll-theme-WuK)
 
 ![License](https://img.shields.io/github/license/wu-kan/jekyll-theme-WuK)![commit-activity](https://img.shields.io/github/commit-activity/m/wu-kan/jekyll-theme-WuK)![last-commit](https://img.shields.io/github/last-commit/wu-kan/jekyll-theme-WuK)![CountLanguage](https://img.shields.io/github/languages/count/wu-kan/jekyll-theme-WuK)![TopLanguage](https://img.shields.io/github/languages/top/wu-kan/jekyll-theme-WuK)![CodeSize](https://img.shields.io/github/languages/code-size/wu-kan/jekyll-theme-WuK)![RepoSize](https://img.shields.io/github/repo-size/wu-kan/jekyll-theme-WuK)![Downloads](https://img.shields.io/github/downloads/wu-kan/jekyll-theme-WuK/total)![Watchers](https://img.shields.io/github/watchers/wu-kan/jekyll-theme-WuK)![contributors](https://img.shields.io/github/contributors-anon/wu-kan/jekyll-theme-WuK)![Release](https://img.shields.io/github/v/release/wu-kan/jekyll-theme-WuK)![release-date](https://img.shields.io/github/release-date/wu-kan/jekyll-theme-WuK)
 
 <!-- .slide vertical=true -->
 
-### 第一步
+### 1つ目
 
-点这个链接<https://github.com/wu-kan/wu-kan.github.io/fork>，把[示例站点](https://wu-kan.cn) fork 到你的仓库。注意，fork 的是示例站点，fork 主题仓库是不完整的！
+このリンク<https://github.com/wu-kan/wu-kan.github.io/fork>，をクリックして、[サイト例](https://wu-kan.cn)をあなたのリポジトリにフォークしてください。 フォークは例のサイトであり、フォークのテーマリポジトリは不完全であることに注意してください。
 
 <!-- .slide vertical=true -->
 
-### 第二步
+### 2つ目
 
-在你 Fork 之后的仓库里，选择 Setting，将仓库名改成`your-name.github.io`。
+Fork後のリポジトリでオプション 「Setting」を選択し、リポジトリ名を`your-name.github.io`。
 
-例如这里我用来示例的 GitHub 小号是 @Mizuno-Ai ，改的名字就是`Mizuno-Ai.github.io`。
+例えば、ここの例で使った GitHub は @Mizuno-Ai で、名前の変更は`Mizuno-Ai.github.io`となっています。
 
 <!-- .slide vertical=true -->
 
@@ -26,9 +26,9 @@
 
 <!-- .slide vertical=true -->
 
-### 第三步
+### 3つ目
 
-把 Setting 拉到下面找到 Github Pages 相关选项，将 Source 从改成 None 改到 master branch，再将 Custom domain 改成你的网址。
+Settingをプルダウンして Github Pages 関連のオプションを見つけ、 Source を None から master branch，に変更し、 Custom domain をあなたのURLに変更します。
 
 <!-- .slide vertical=true -->
 
@@ -40,13 +40,13 @@
 
 <!-- .slide vertical=true -->
 
-稍等一下，应该会提示你的博客地址可以访问了！你已经成功大半啦~
+少し待つと、あなたのブログのアドレスがアクセス可能であることが表示されます。 半端ないって～。
 
 <!-- .slide vertical=true -->
 
-### 第四步
+### 4つ目
 
-回到仓库根目录下，自行配置`_config.yml`，能看懂多少就改多少。大部分配置项我都加了注释。
+リポジトリのルートに戻って、自分で`_config.yml`を設定し、読める範囲で変更してください。 ほとんどの設定項目にコメントを付けました。
 
 <!-- .slide vertical=true -->
 
@@ -62,13 +62,13 @@
 
 <!-- .slide vertical=true -->
 
-要注意 yaml 格式中缩进是很重要的，不要破坏本来的缩进。
+ yaml形式でのインデントは重要で、元のインデントを崩さないようにすることが大切です。
 
 <!-- .slide vertical=true -->
 
-### 第五步
+### 5つ目
 
-回到仓库根目录下，点开`/_posts/`文件夹，这个目录存放博客文章。点 Create new file 就可以写你自己的博客了。这些文章使用的格式是 [Markdown](https://www.runoob.com/markdown/md-tutorial.html)，这是一种非常简单易用的有格式文本标记语言，文件后缀名是 `md`。
+リポジトリのルートに戻って、ブログの記事を格納している`/_posts/`フォルダをクリックします。 自分のブログを書くには、「新規ファイルを作成」をクリックします。 これらの投稿に使用されるフォーマットは[Markdown](https://www.runoob.com/markdown/md-tutorial.html)，これは非常にシンプルで使いやすいフォーマットされたテキストのマークアップ言語で、ファイル拡張子は `md` です。
 
 <!-- .slide vertical=true -->
 
@@ -76,7 +76,7 @@
 
 <!-- .slide vertical=true -->
 
-文件命名方式需要是`日期-标题.md`；文件内容前最好要有一个`title: 标题`的 yaml 头，以防止显示错乱。
+ファイルの命名規則は `date-title.md` である必要があります。表示の不一致を防ぐために、ファイルの内容の前に `title: title` の yaml ヘッダーを付けるのが理想的です。
 
 <!-- .slide vertical=true -->
 
@@ -84,27 +84,27 @@
 
 <!-- .slide vertical=true -->
 
-写好之后和改配置的操作类似，点 Commit 提交。现在再访问你的博客，可以发现你的博文已经出现在归档页的最上面了！Enjoy~
+書き込んだら、設定変更と同じようなことをして、Commitを押してコミットします。 再びブログにアクセスすると、あなたのブログ記事がアーカイブページの一番上に表示されているのがわかります。
 
 <!-- .slide vertical=true -->
 
-欢迎[![Star](https://img.shields.io/github/stars/wu-kan/wu-kan.github.io)](https://github.com/wu-kan/wu-kan.github.io)、[![Fork](https://img.shields.io/github/forks/wu-kan/wu-kan.github.io)](https://github.com/wu-kan/wu-kan.github.io/fork)、[![Issue](https://img.shields.io/github/issues/wu-kan/wu-kan.github.io)](https://github.com/wu-kan/wu-kan.github.io/issues)！
+歓迎[![Star](https://img.shields.io/github/stars/wu-kan/wu-kan.github.io)](https://github.com/wu-kan/wu-kan.github.io)、[![Fork](https://img.shields.io/github/forks/wu-kan/wu-kan.github.io)](https://github.com/wu-kan/wu-kan.github.io/fork)、[![Issue](https://img.shields.io/github/issues/wu-kan/wu-kan.github.io)](https://github.com/wu-kan/wu-kan.github.io/issues)！
 
 <!-- .slide -->
 
-## 进一步定制
+## さらなるカスタマイズ
 
-以上所有操作均可直接在 github 网页上进行。如果你在本地运行博客的测试，或是对博客进行更高级别的定制，推荐先阅读以下几篇博文：
+以上のことは、githubページで直接行うことができます。 ブログのテストをローカルで実行する場合や、ブログをより高度にカスタマイズする場合は、まず以下のブログ記事を読むことをお勧めします。
 
-- [基于 Jekyll 搭建个人博客](https://wu-kan.cn/_posts/2019-01-18-%E5%9F%BA%E4%BA%8EJekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
-- [个人网站优化之旅](https://wu-kan.cn/_posts/2020-02-06-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96%E4%B9%8B%E6%97%85/)
+- [Jekyllをベースにした個人ブログの構築](https://wu-kan.cn/_posts/2019-01-18-%E5%9F%BA%E4%BA%8EJekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
+- [個人的なウェブサイト最適化の旅](https://wu-kan.cn/_posts/2020-02-06-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96%E4%B9%8B%E6%97%85/)
 
 <!-- .slide vertical=true -->
 
-统一中文文案、排版的相关用法，降低团队成员之间的沟通成本，增强网站气质，推荐阅读：
+中国語のコピーの統一、タイポグラフィ関連の使い方、チームメンバー間のコミュニケーションコストの削減、ウェブサイトの倫理観の向上、おすすめの読み物。
 
-- [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)
-- [Markdown 写作心得](https://wu-kan.cn/_posts/2020-01-18-Markdown%E5%86%99%E4%BD%9C%E5%BF%83%E5%BE%97/)
+- [中国語 コピーライティング タイポグラフィ ガイドライン](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)
+- [Markdownライティングのヒント](https://wu-kan.cn/_posts/2020-01-18-Markdown%E5%86%99%E4%BD%9C%E5%BF%83%E5%BE%97/)
 
 <!-- .slide -->
 
@@ -116,97 +116,96 @@
 
 <!-- .slide -->
 
-## 文件结构
+## ファイル構成
 
-我的主题主要实现了如下几种渲染页面的样式供选择。
+私のテーマでは、ページをレンダリングするための主なスタイルとして、以下のものを実装しています。
 
 <!-- .slide vertical=true -->
 
 ### `layout: default`
 
-基于[poole/lanyon](https://github.com/poole/lanyon)的页面，提供一个侧边栏和可随侧边栏移动的 warp。
+[poole/lanyon](https://github.com/poole/lanyon)をベースに、サイドバーとワープを用意し、サイドバーと一緒に移動できるようにしたページ。
 
 <!-- .slide vertical=true -->
 
 ### `layout: page`
 
-基于`layout: default`，提供了一个标题栏`.masthead`和文本框的`.content`。
+`layout: default`をベースに、ヘッダーバー`.masthead`とテキストボックス`.content`が用意されています。。
 
 <!-- .slide vertical=true -->
 
 ### `layout: comments`
 
-基于`layout: page`的留言页，留言插件使用了[Valine](https://valine.js.org/)。
+メッセージページは`layout: page`をベースに、メッセージプラグインは[Valine](https://valine.js.org/)を使用しています。。
 
-示例：<https://wu-kan.cn/comments/>
+例：<https://wu-kan.cn/comments/>
 
 <!-- .slide vertical=true -->
 
 ### `layout: post`
 
-基于`layout: comments`的博文页，为每篇博文增加描述信息。
+`layout: comments`をベースにしたブログ記事ページで、各ブログ記事に説明情報を追加します。
 
-示例：[基于 Jekyll 搭建个人博客](https://wu-kan.cn/_posts/2019-01-18-%E5%9F%BA%E4%BA%8EJekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
+例：[Jekyllをベースにした個人ブログの構築](https://wu-kan.cn/_posts/2019-01-18-%E5%9F%BA%E4%BA%8EJekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
 
 <!-- .slide vertical=true -->
 
 ### `layout: merger`
 
-基于 merger 的打赏页。
+合併に伴う報酬ページ。
 
-示例：<https://wu-kan.cn/merger/>
+例：<https://wu-kan.cn/merger/>
 
 <!-- .slide vertical=true -->
 
 ### `layout: home`
 
-从`v3.1.0`版本开始，`layout: home`被我重写，基于[hakimel/reveal.js](https://github.com/hakimel/reveal.js)实现了一个简洁的展示页面，既可以作为博客的封面，也可以用作 presentation！
+`v3.1.0`から、`layout: home`は私が書き換えて、[hakimel/reveal.js](https://github.com/hakimel/reveal.js)をベースにしたきれいなプレゼンテーションページを実装しています。プレゼンテーションを行います。
 
-示例：[我的数图期末展示页](https://wu-kan.cn/_posts/2019-12-10-%E6%95%B0%E5%9B%BE%E6%9C%9F%E6%9C%ABProject/)
-
-<!-- .slide vertical=true -->
-
-向你的 markdown 文件中插入水平页面分隔符和垂直页面分隔符（可自定义），即可快速开始使用啦！可以以[本篇文档](https://github.com/wu-kan/jekyll-theme-WuK/blob/master/README.md)作为使用示例。
-
-推荐的分隔符是![垂直标签](data:image/webp;base64,UklGRswEAABXRUJQVlA4IMAEAABQHwCdASrAASAAPsVQo0unpKMhtJMt+PAYiWkAFsxLa9e8Eh/E96cqAGmyaFhk0Q5inYLCsACybyvNmNBBvQcWVFDythsQZJBVxehBlMwh1yaCph3TT2mmXBYK4xTe1NQkAXYTUqlqw5axNWj96M5T+rkKO1ITOC/HXVhXDuBiZLLWebQVjzeuOZZbVNTlj1mUAthhmVBOEZyvWrJ8MacmBcu/R1nhZXOFxgJcjRk0JUNUxVxkcJKLugO7TzsHe/ypmIXUjZkQM2B75gv0R2Il+croGEtWa9KC3jCQ50RDOiQz2gtg3d5JDES2HqfZoVXHDcmj31oyYgLAMsrs0kRz6oAAAP73mKTfMOCm35/b4Qk9coZRWF/gzyQ+AyJOWBfAGDv3SBErqzWPv1hFXtlNoLceJgqLqnLzOSUx7DiuK2wiJ4rUObsqOE+MT6+pGZhCQhIjAq7hVZOjFtXUAuXEvG0pwJn3iedUv/j455TijyrJJcdJMR4aqihWqaBMTcB4E2CcjQ1YdITOt7BzvuJ+ujCFC5gybqIFrv+7SeNt4xux7nEqq6ajkJwkXg4GutsosueU/0lBwh3UW/kFoOKFTWouPwbLGWdYI4WaIWshXeDv549gTc0PKD/FFeqPHd9aU++Hqu7JbmEMpa7CLPsaxQRgDGAHDfjva0DqroXr7gD7SHbIHeEEfGneh7wgYLGcN1wO6XpUnmZQSYhqvKZ3V9qh180B9n7/7ViGnOjPnLZHiR0DDUPN3WgNvLfdTtXrzTIIe4clZR4QBCJ98wGdOZEo3vv0y+I7HVPXcDzibfxpuyfoPCnOgMFmVLKMvwqIHgIWH4Yxzhv6efYiKAyOVNnQIosoOKsI/6mG1uzH9RjgDcJA7gTJvwpTq5ST0FKUdrVtY0F62jai3eqcWhQEg3Lp11W2z8+pOjpU/ALrHDFQB8eATgid4+lu9cquOn6D5jfkHAIOVSWNgW55QB3drAhCEqTZ2BCjIxzQeTTD50rZxGTSSv51QbMbOG6+OQp6X6mOuYlBPctjkYbTYITDV0ANyT/bH1ZYw0QN+qV9Z0FvgDMuixTGgm/WwRDroKqik4JL9Toro+xMQKUlbaftdxfIjkrmVDAALBD/bF26A3vTRtGP+KMgNDj2mqd9w3znrM/WQnqrtp2Dm7vLVmURPpLzofnbviwFz7LHSPwT7dz1tfOPPeJMunAM7Hl2bLMPJ53KZy9M0+ns7ylPJ5sYLNsrstwdy5/KgZi9nqhQ9rDGETCv9Jm01GiMBemXJa4EPD7VB1MCG2Ep+ibTIRNjQ/j3Q/HyNfUpwNQSJ4DEiG3ZKplHKFRdjwWz2jsVBl+S6T98wMG7WJKoOAv6UDHM1GJ814ICZRXKX8COWPCKvFJgPT+ohqrUYy2YxQvr/UUJoIRbX3xCmyL/Co484h4ADGRJ+pl9Dkv72GvAxR9Q9/lZzSNgkiess0mfv2ctlFaKnfQGhsE2g39w37DIR26xJi0rMtkey9YiaTl62hSm3uqrKSpidim0eDZJvLvHLTxHxoBOytnf9sZaUuEAC5/OAGcD86/cByTlWvPbvbnRPygoLSl8xEmg9IWpHnD/ETK2dClPiRsF+hfETqEtSAAA)和![水平标签](data:image/webp;base64,UklGRlwCAABXRUJQVlA4IFACAACQDwCdASrgACAAPpE8m0elo6KhLbVcALASCWkAEWHcpexmUsD6ZOiu5sdWJqej30kHAWtWgzm1NokVrmXtBduqdjf69Ky/YrEfEk+DW1QmKbH58l6EwOTfIUdlpA9FItaZ+aXOqRi7Lf8XoMSwIPubKewvVC8kbFKgsiWQMmHqL7KMBE8AAP79uypAcc+TWCg0wbbnBWWODDTzqFgLrrobgfk6sOqETmoC8PIIDAt2Si73oax5KbX3SwCtGFRuRBn1uMwQStgw0dWqf5biuBby+hCRVXsg1usfCXyC2TOzsYDX89EEII6pcuI+jyvREioCmAhUHo5uHUEi05r1rckaSHFG9jYaTLNpOSC2AFItW/sUZIgBsYz1EnDk0oPG0eaWfTD3p1pwNOapL3JUK52Kqqdpwi5L/UxF+qUPS+XVX5BA2AI2FjTkJXaN75DUdEQ04xq+fCz1hDcc9po5h4AJCmNGDJ+hBKvSAKeRvRzbAi/OgVFg4ZpozCToVa+MMYslTrUGCJC3goF1f379lpSUD12xat2I4lTC3UrAkcbYE8kvpy817kSb+lg4cD80TdS06oTGhQR5jhlw9m3Shctwj5MyQ9e4dnKfbvZGsjBiB/C4OS/yJT4yN6vSFq/P3DmpiG5pQYwGVZud0Sp4fQ/hK84KYIxfEfeZSTRvrrNcS83XqziGfuD2xXXkulIjKF2Wdo9SDsZ2v2owdj9PN6xprlnXo/lEUwI/dRpY0JscfYWYrWtPdn4aznDTfsXina6MeJvfZyJ+dktjvrCfSAAA)，这样可以和[vscode-markdown-preview-enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/presentation)的标记兼容，方便本地预览。
+例：[マイナンバーチャート最終発表会ページ](https://wu-kan.cn/_posts/2019-12-10-%E6%95%B0%E5%9B%BE%E6%9C%9F%E6%9C%ABProject/)
 
 <!-- .slide vertical=true -->
 
-如果你希望使用它来渲染主页之外的页面，可以在你的 markdown 的 yaml 头中设置`layout: home`即可！当然，如果你不希望使用它来渲染主页，你也可以将主页的 layout 设置成其他的。
+水平方向のページセパレータと垂直方向のページセパレータ（カスタマイズ可能）をマークダウンファイルに挿入すれば、準備完了です。 このドキュメント(https://github.com/wu-kan/jekyll-theme-WuK/blob/master/README.md)を例に挙げることができます。
 
-想针对特定页面默认开启侧边栏？在 yaml 头中设置`jekyll-theme-WuK: default: sidebar: open: true`即可！
-
-想针对特定页面隐藏侧边栏？在 yaml 头中设置`jekyll-theme-WuK: default: sidebar: disable: true`即可！会覆盖`sidebar: open`的设置。
+推奨するセパレータは ![縦型タグ](data:image/webp;base64,UklGRswEAABXRUJQVlA4IMAEAABQHwCdASrAASAAPsVQo0unpKMhtJMt+PAYiWkAFsxLa9e8Eh/E96cqAGmyaFhk0Q5inYLCsACybyvNmNBBvQcWVFDythsQZJBVxehBlMwh1yaCph3TT2mmXBYK4xTe1NQkAXYTUqlqw5axNWj96M5T+rkKO1ITOC/HXVhXDuBiZLLWebQVjzeuOZZbVNTlj1mUAthhmVBOEZyvWrJ8MacmBcu/R1nhZXOFxgJcjRk0JUNUxVxkcJKLugO7TzsHe/ypmIXUjZkQM2B75gv0R2Il+croGEtWa9KC3jCQ50RDOiQz2gtg3d5JDES2HqfZoVXHDcmj31oyYgLAMsrs0kRz6oAAAP73mKTfMOCm35/b4Qk9coZRWF/gzyQ+AyJOWBfAGDv3SBErqzWPv1hFXtlNoLceJgqLqnLzOSUx7DiuK2wiJ4rUObsqOE+MT6+pGZhCQhIjAq7hVZOjFtXUAuXEvG0pwJn3iedUv/j455TijyrJJcdJMR4aqihWqaBMTcB4E2CcjQ1YdITOt7BzvuJ+ujCFC5gybqIFrv+7SeNt4xux7nEqq6ajkJwkXg4GutsosueU/0lBwh3UW/kFoOKFTWouPwbLGWdYI4WaIWshXeDv549gTc0PKD/FFeqPHd9aU++Hqu7JbmEMpa7CLPsaxQRgDGAHDfjva0DqroXr7gD7SHbIHeEEfGneh7wgYLGcN1wO6XpUnmZQSYhqvKZ3V9qh180B9n7/7ViGnOjPnLZHiR0DDUPN3WgNvLfdTtXrzTIIe4clZR4QBCJ98wGdOZEo3vv0y+I7HVPXcDzibfxpuyfoPCnOgMFmVLKMvwqIHgIWH4Yxzhv6efYiKAyOVNnQIosoOKsI/6mG1uzH9RjgDcJA7gTJvwpTq5ST0FKUdrVtY0F62jai3eqcWhQEg3Lp11W2z8+pOjpU/ALrHDFQB8eATgid4+lu9cquOn6D5jfkHAIOVSWNgW55QB3drAhCEqTZ2BCjIxzQeTTD50rZxGTSSv51QbMbOG6+OQp6X6mOuYlBPctjkYbTYITDV0ANyT/bH1ZYw0QN+qV9Z0FvgDMuixTGgm/WwRDroKqik4JL9Toro+xMQKUlbaftdxfIjkrmVDAALBD/bF26A3vTRtGP+KMgNDj2mqd9w3znrM/WQnqrtp2Dm7vLVmURPpLzofnbviwFz7LHSPwT7dz1tfOPPeJMunAM7Hl2bLMPJ53KZy9M0+ns7ylPJ5sYLNsrstwdy5/KgZi9nqhQ9rDGETCv9Jm01GiMBemXJa4EPD7VB1MCG2Ep+ibTIRNjQ/j3Q/HyNfUpwNQSJ4DEiG3ZKplHKFRdjwWz2jsVBl+S6T98wMG7WJKoOAv6UDHM1GJ814ICZRXKX8COWPCKvFJgPT+ohqrUYy2YxQvr/UUJoIRbX3xCmyL/Co484h4ADGRJ+pl9Dkv72GvAxR9Q9/lZzSNgkiess0mfv2ctlFaKnfQGhsE2g39w37DIR26xJi0rMtkey9YiaTl62hSm3uqrKSpidim0eDZJvLvHLTxHxoBOytnf9sZaUuEAC5/OAGcD86/cByTlWvPbvbnRPygoLSl8xEmg9IWpHnD/ETK2dClPiRsF+hfETqEtSAAA)そして![水平ラベル](data:image/webp;base64,UklGRlwCAABXRUJQVlA4IFACAACQDwCdASrgACAAPpE8m0elo6KhLbVcALASCWkAEWHcpexmUsD6ZOiu5sdWJqej30kHAWtWgzm1NokVrmXtBduqdjf69Ky/YrEfEk+DW1QmKbH58l6EwOTfIUdlpA9FItaZ+aXOqRi7Lf8XoMSwIPubKewvVC8kbFKgsiWQMmHqL7KMBE8AAP79uypAcc+TWCg0wbbnBWWODDTzqFgLrrobgfk6sOqETmoC8PIIDAt2Si73oax5KbX3SwCtGFRuRBn1uMwQStgw0dWqf5biuBby+hCRVXsg1usfCXyC2TOzsYDX89EEII6pcuI+jyvREioCmAhUHo5uHUEi05r1rckaSHFG9jYaTLNpOSC2AFItW/sUZIgBsYz1EnDk0oPG0eaWfTD3p1pwNOapL3JUK52Kqqdpwi5L/UxF+qUPS+XVX5BA2AI2FjTkJXaN75DUdEQ04xq+fCz1hDcc9po5h4AJCmNGDJ+hBKvSAKeRvRzbAi/OgVFg4ZpozCToVa+MMYslTrUGCJC3goF1f379lpSUD12xat2I4lTC3UrAkcbYE8kvpy817kSb+lg4cD80TdS06oTGhQR5jhlw9m3Shctwj5MyQ9e4dnKfbvZGsjBiB/C4OS/yJT4yN6vSFq/P3DmpiG5pQYwGVZud0Sp4fQ/hK84KYIxfEfeZSTRvrrNcS83XqziGfuD2xXXkulIjKF2Wdo9SDsZ2v2owdj9PN6xprlnXo/lEUwI/dRpY0JscfYWYrWtPdn4aznDTfsXina6MeJvfZyJ+dktjvrCfSAAA)，で行うことができます。[vscode-markdown-preview-enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/presentation)マーカーには互換性があり、ローカルでのプレビューが容易です。
 
 <!-- .slide vertical=true -->
 
-这是一个仍在开发的特性（主要是找不到美观精致的[展示主题](https://github.com/hakimel/reveal.js/tree/master/css/theme)），如果有建议/需求欢迎 issue！
+ホームページ以外のページのレンダリングに使用したい場合は、マークダウンのyamlヘッダーに`layout: home`を設定してください。 もちろん、ホームページのレンダリングに使いたくない場合は、ホームページのレイアウトを別のものに設定することができます。
+
+特定のページでサイドバーをデフォルトでオンにするには？ yamlヘッダーで`jekyll-theme-WuK: default: sidebar: open: true`を設定するだけです。
+
+特定のページのサイドバーを非表示にしたい。 yamlヘッダーで`jekyll-theme-WuK: default: sidebar: disable: true`を設定するだけです。 これは、`sidebar: open`の設定を上書きします。
 
 <!-- .slide vertical=true -->
 
-更多的功能，请尽情探索[hakimel/reveal.js](https://github.com/hakimel/reveal.js)！~~例如，按 Esc 可以生成一个 ppt 大纲~~
+これはまだ開発中の機能です（主な理由は、素敵で洗練された[表示テーマ](https://github.com/hakimel/reveal.js/tree/master/css/theme)），が見つからなかったからです）ので、ご提案やご要望があればお気軽にお寄せください
+<!-- .slide vertical=true -->
+
+より多くの機能については、[hakimel/reveal.js](https://github.com/hakimel/reveal.js)を自由にご覧ください! ~~ 例えば、Escを押すとpptのアウトラインが生成されます～～。
 
 <!-- .slide -->
 
 ## 初心
 
-我曾做什么？
+私は何をしたか？
 
-我正做什么？
+私は何をしているのだろう？
 
-我想做什么？
+自分が何をしたいのか？
 
-我该做什么？
+どうすればいいですか？
 
 <!-- .slide vertical=true -->
 
-> 章北海感到父亲的灵魂从冥冥中降落到飞船上，与他融为一体，他按动了操作界面上那个最后的按钮，心中默念出那个他用尽一生的努力所追求的指令：
+> 張飛海は、父の魂が冥界から飛行船に降り立ち、自分と一体になっているのを感じながら、オペレーターインターフェイスの最後のボタンを押し、生涯をかけて努力してきたコマンドを心の中で静かに唱えた。
 >
-> “‘自然选择’，前进四！”
+> “‘自然淘汰’，前進する4！”
 
 <!-- .slide vertical=true -->
 
-目标是打造一个尽可能简洁，而可定制内容又尽可能丰富的博客。如果有更好的建议，欢迎给我提 Issue！
+目標は、可能な限りシンプルでありながら、カスタマイズ可能なコンテンツが豊富なブログを作ることです。 もっと良い提案があれば、気軽にIssueをください。
 
 <!-- .slide -->
 
@@ -214,71 +213,70 @@
 
 <!-- .slide vertical=true -->
 
-除特别声明或转载外，所有博文采用[署名-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)协议进行许可。
+すべてのブログ記事は、特に明記または複製されていない限り、[表示-継承 4.0 インターナショナル](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)のライセンスで提供されています。
 
-博客基于[MIT License](https://github.com/wu-kan/jekyll-theme-WuK/blob/master/LICENSE)开源于[GitHub](https://github.com/wu-kan/jekyll-theme-WuK)。
-
-<!-- .slide -->
-
-## 致谢
-
-<!-- .slide vertical=true -->
-
-托管于[Github Pages](https://pages.github.com/)，感谢。
-
-博客引擎来自于[jekyll/jekyll](https://github.com/jekyll/jekyll)，感谢。
-
-CDN 加速服务来自于<https://cdn.jsdelivr.net/>和<https://loli.net>，感谢。
-
-<!-- .slide vertical=true -->
-
-博客主题基于[poole/lanyon](https://github.com/poole/lanyon)，感谢。
-
-图标库来自于[<i class="fab fa-font-awesome"></i>fontawesome-free](https://fontawesome.com/)，感谢。
-
-展示页基于[hakimel/reveal.js](https://github.com/hakimel/reveal.js)，感谢。
-
-捐赠页来自[hifocus/merger](https://github.com/hifocus/merger)，感谢。
-
-页面压缩来自于[penibelst/jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)，感谢。
-
-<!-- .slide vertical=true -->
-
-评论系统来自于[utterance/utterances](https://github.com/utterance/utterances)，感谢。
-
-页面统计来自于[不蒜子](http://busuanzi.ibruce.info/)，感谢。
-
-博客搜索插件来自于[christian-fei/Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)，感谢。
-
-博文目录插件来自于[allejo/jekyll-toc](https://github.com/allejo/jekyll-toc)，感谢。
-
-代码高亮及插件来自于[PrismJS](https://prismjs.com/)，感谢。
-
-<!-- .slide vertical=true -->
-
-Live2D 前端插件来自于[Dreamer-Paul/Pio](https://github.com/Dreamer-Paul/Pio)，感谢。
-
-Live2D Model 来自于[imuncle/live2d](https://github.com/imuncle/live2d)和[xiaoski/live2d_models_collection](https://github.com/xiaoski/live2d_models_collection)，感谢。
-
-<!-- .slide vertical=true -->
-
-头像、壁纸来自于<https://www.pixiv.net/artworks/71574257>、<https://www.pixiv.net/artworks/71932901>和<https://www.pixiv.net/artworks/74559485>，感谢（侵权必删）。
-
-头像翻转效果受启发自[leopardpan/leopardpan.github.io](https://github.com/leopardpan/leopardpan.github.io)，感谢。
+ブログの内容は[MIT License](https://github.com/wu-kan/jekyll-theme-WuK/blob/master/LICENSE)由来[GitHub](https://github.com/wu-kan/jekyll-theme-WuK)。
 
 <!-- .slide -->
 
-## 历程
+## 謝辞
+
+<!-- .slide vertical=true -->
+
+Hosted at[Github Pages](https://pages.github.com/)，thanks.
+
+[jekyll/jekyll](https://github.com/jekyll/jekyll)，からのブログエンジン、ありがとうございます。
+
+<https://cdn.jsdelivr.net/>と<https://loli.net>，のCDNアクセラレーションサービス、ありがとうございます。
+
+<!-- .slide vertical=true -->
+
+[poole/lanyon](https://github.com/poole/lanyon)，をベースにしたブログテーマ、ありがとうございます。
+
+アイコンギャラリーは[<i class="fab fa-font-awesome"></i>fontawesome-free](https://fontawesome.com/)，から、ありがとうございます。
+
+表示ページは[hakimel/reveal.js](https://github.com/hakimel/reveal.js)，をベースにしています、ありがとうございます。
+
+[hifocus/merger](https://github.com/hifocus/merger)，からの寄付のページ、ありがとうございます。
+
+[penibelst/jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)，からのページ圧縮、ありがとうございます。
+
+<!-- .slide vertical=true -->
+
+[utterance/utterances](https://github.com/utterance/utterances)，からのコメントシステム、ありがとうございます。
+
+ページの統計情報は[不蒜子](http://busuanzi.ibruce.info/)，からです。ありがとうございます。
+
+[christian-fei/Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)，のブログ検索プラグイン、ありがとうございます。
+
+ブログディレクトリプラグインは[allejo/jekyll-toc](https://github.com/allejo/jekyll-toc)，のものです、ありがとうございます。
+
+コードハイライトとプラグインは[PrismJS](https://prismjs.com/)，から、ありがとうございます。
+
+<!-- .slide vertical=true -->
+
+[Dreamer-Paul/Pio](https://github.com/Dreamer-Paul/Pio)，のLive2Dフロントエンド・プラグイン、ありがとうございます。
+Live2Dモデル [imuncle/live2d](https://github.com/imuncle/live2d)と[xiaoski/live2d_models_collection](https://github.com/xiaoski/live2d_models_collection)，ありがとうございます。
+
+<!-- .slide vertical=true -->
+
+アバター、<https://www.pixiv.net/artworks/71574257>、<https://www.pixiv.net/artworks/71932901>と<https://www.pixiv.net/artworks/74559485>，ありがとうございます（侵害は削除する必要があります）。
+
+アバターのフリップエフェクトをイメージ[leopardpan/leopardpan.github.io](https://github.com/leopardpan/leopardpan.github.io)，thanks.
+
+<!-- .slide -->
+
+## 旅
 
 <!-- .slide vertical=true -->
 
 ### 2021-06-07 v4.1.0
 
-- 对主题进行精简，去掉
+- を削除して、テーマをスリム化します。
   - layout: archive
   - layout: tags
   - layout: page404
-- 配合 jekyll-redirect-from 模板，增加
+- 配合 jekyll-redirect-from テンプレート、追加
   - layout: redirect
 - 使用[utterances](https://github.com/utterance/utterances)代替 valine
 
@@ -286,137 +284,135 @@ Live2D Model 来自于[imuncle/live2d](https://github.com/imuncle/live2d)和[xia
 
 ### 2021-06-03 v4.0.5
 
-- 一些页面选项的增强
-  - 可直接从前一个版本升级
-
+- いくつかのページオプションの強化
+  - 旧バージョンからのダイレクトアップグレード
 <!-- .slide vertical=true -->
 
 ### 2021-05-23 v4.0.4
 
-- 后端实现精简，去掉主页部分
+- バックエンドの実装を合理化し、ホームページのセクションを削除
 
 <!-- .slide vertical=true -->
 
 ### 2021-01-10 v4.0.3
 
-- document 样式更新，渲染成类似于 $\LaTeX$ 的样式
+- ドキュメントのスタイルを更新すると、 $\LaTeX$ のようにレンダリングされます。
 
 <!-- .slide vertical=true -->
 
 ### 2020-09-15 v4.0.2
 
-- 侧边栏增加 [minivaline-counter](https://github.com/MiniValine/minivaline-counter) 的可选功能
-  - 可用于替代不蒜子计数器，修复两个计数器数量不一致的问题
-
+- サイドバーに任意の [minivaline-counter](https://github.com/MiniValine/minivaline-counter) を追加しました。
+  - ノットガーリックのサブカウンターの交換に使用でき、2つのカウンター間でカウンターの数が不一致になる問題を解決できる
 <!-- .slide vertical=true -->
 
 ### 2020-07-23 v4.0.1
 
-- 修复使用 rouge 并开启代码行号时使用[jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)导致渲染错误的问题
-- 修复 `search.json` 失效的问题
-- default、home 增加 append 配置项
-- 打包发布
+- [jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)でrougeを使用し、コードの行番号をオンにしたときに発生するレンダリングエラーを修正しました。
+- `search.json` が動作しない問題を修正しました。
+- デフォルト、ホームに設定項目を追加
+- パッケージ発売
 
 <!-- .slide vertical=true -->
 
 ### 2020-06-21 v4.0.0
 
-- 将所有主题配置变量移动到 [front-matter-defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/)，从而使得所有页面可以自定义配置
-- 标签页、归档页增加一个目录（可选）
-- 插件位置调整到页面底部，提高页面加载速度
+- すべてのテーマ設定変数を [front-matter-defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/)，に移動し、すべてのページを設定用にカスタマイズできるようにしました。
+- タブページ、アーカイブページ、ディレクトリの追加（オプション）
+- プラグインをページ下部に再配置し、ページの読み込み速度を向上させる
 
 <!-- .slide vertical=true -->
 
 ### 2020-05-29 v3.2.1
 
-- 使用 [penibelst/jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html) 压缩生成页面大小
-- 优化 archive 、tags 页面生成速度
-- 新增 archive 自定义分组规则
+- 生成されたページサイズを圧縮するには、 [penibelst/jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html) を使用します。
+- アーカイブ、タグのページ生成速度の最適化
+- 新しいアーカイブのカスタムグルーピングルール
 
 <!-- .slide vertical=true -->
 
 ### 2020-05-21 v3.2.0
 
-- 修复 reveal.js 自动更新到 4.0 版本后渲染错误的问题！
-- document 页回归，现在可以生成 github readme 风格的可打印文档
-- 修复当博文没有标签时仍然显示标签图标的 bug
-- 配置项中的 alert 命名不规范，全部换成 append/prepend
-- 博客目录插件更换成 [allejo/jekyll-toc](https://github.com/allejo/jekyll-toc)，纯 Liquid ！
-  - 下一步将按同样思路优化 katex、mermaid、prism 三个插件的渲染速度
+- バージョン4.0への自動アップデート後に発生する reveal.js のレンダリングエラーを修正!
+- ドキュメントページが復活し、githubのreadmeスタイルの印刷可能なドキュメントを生成できるようになりました。
+- ブログ記事にタグがない場合、タグアイコンが表示されたままになっていた不具合を修正
+- 設定項目でのアラートの命名は標準化されていないので、すべてappend/prependに置き換えてください。
+- ブログディレクトリプラグインを[allejo/jekyll-toc](https://github.com/allejo/jekyll-toc)，に置き換え、純粋なLiquid!
+- 次のステップでは、katex、mermaid、prismの各プラグインのレンダリング速度を同様に最適化します。
 
 <!-- .slide vertical=true -->
 
 ### 2020-04-28 v3.1.5
 
-- 修复博文字数统计忽略中文的问题
-- 修复 valine 阅读量统计失效的问题
+- ブログ記事の単語数統計で中国語が無視される問題を修正
+- バリーンの読み取り統計が無効になる問題を修正
 
 <!-- .slide vertical=true -->
 
 ### 2020-04-20 v3.1.4
 
-- 修复归档页年份博文数量统计错误的问题
+- アーカイブページのブログ記事数のカウントミスを修正 年
 
 <!-- .slide vertical=true -->
 
 ### 2020-04-20 v3.1.3
 
-- 归档页、标签页增加一个饼状统计图
-  - 好丑啊，可以关掉
-- 归档页现在按照年份归档
+- アーカイブページ、タブで円の統計チャートを追加
+  - それは醜い、あなたはそれをオフにすることができます
+- アーカイブページが年別アーカイブに
 
 <!-- .slide vertical=true -->
 
 ### 2020-04-12 v3.1.2
 
-- [poole/lanyon](https://github.com/poole/lanyon) 更新至 v1.1.0
-- Live2D 增加变换主题按钮
-- page 中用到的变量移动到`jekyll-theme-WuK`命名空间下
+- [poole/lanyon](https://github.com/poole/lanyon) v1.1.0にアップデートしました。
+- Live2Dのテーマ変更ボタンの追加
+- ページ内で使用されている変数を`jekyll-theme-WuK`名前空間に移動しました。
 
 <!-- .slide vertical=true -->
 
 ### 2020-03-28 v3.1.1
 
-- 删去壁纸，加快本地测试速度
-- 修复 `layout: home` 中代码块渲染可能存在的一些问题
+- ローカルテストを高速化するために壁紙を削除
+- `layout: home` のブロックレンダリングで起こりうる問題を修正しました。
 
 <!-- .slide vertical=true -->
 
 ### 2020-02-29 v3.1.0
 
-- 使用 bundle 管理版本和运行依赖
-- 使用 Remote_theme 将博客主题和博文分离
-- 部署 gitlab 镜像站，解决百度爬虫爬不到的问题
-- 基于[hakimel/reveal.js](https://github.com/hakimel/reveal.js)重写`layout: home`
-- 更换 live2d 插件为[Dreamer-Paul/Pio](https://github.com/Dreamer-Paul/Pio)
-- 更换 live2d 模型
-- 定制 live2d 提示语
-- css 样式更新
-  - 彩虹滚动条
-  - 页面加载动画
-  - 更换竖屏下壁纸
+- バンドルによるバージョン管理と依存関係の実行
+- Remote_theme によるブログテーマとブログ記事の分離
+- Baiduのクローラーがクロールできない問題を解決するためのgitlabミラーの導入
+- [hakimel/reveal.js](https://github.com/hakimel/reveal.js)に基づいて、`layout: home`を書き換える。
+- live2dプラグインを[Dreamer-Paul/Pio](https://github.com/Dreamer-Paul/Pio)に置き換える
+- ライブ2Dモデルの置き換え
+- live2dプロンプトのカスタマイズ
+- cssスタイルの更新
+  - レインボースクロールバー
+  - ページ読み込み時のアニメーション
+  - 縦長画面での壁紙変更
 
 <!-- .slide vertical=true -->
 
-这么大的更新感觉版本号改成“4.0.0”也不为过嘛。
+このような大きなアップデートでは、バージョン番号を「4.0.0」に変更する必要があるように感じます。
 
-不过实际上这个版本保持了和前一个版本的兼容，因此是“3.1.0”。
+ただし、このバージョンは旧バージョンとの互換性を維持しているため、実際には「3.1.0」となります。
 
 <!-- .slide vertical=true -->
 
 ### 2020-02-14 v3.0.0
 
-- 插件引入方式完全重构，现在直接嵌入 html 即可
-- 更换 live2d 插件为[kooritea/live2d-helper](https://github.com/kooritea/live2d-helper)，从而支持 live2d 定制
-  - 看板娘隐藏按钮
-- 去除 jQuery
-- 去除 categories 标签，使用 tags 代替
-- 博客结构调整，把`/public`目录迁移到 jekyll 默认的`/assets`
-- merger 打赏页
-- 侧边栏样式调整，更加简洁
-- 为竖屏显示增加壁纸
-- 全局搜索
-- $\KaTeX$ 行间公式
+- プラグインの導入部分が完全にリファクタリングされ、htmlに直接埋め込むことができるようになりました。
+- live2dのカスタマイズをサポートするために、live2dプラグインを[kooritea/live2d-helper](https://github.com/kooritea/live2d-helper)，に置き換えました。
+  - Kooritea ボタンを隠す
+- jQueryの削除
+- カテゴリタグを削除し、タグに変更
+- ブログを再構築し、`/public`ディレクトリを jekyll のデフォルト `/assets`に移動。
+- merge Rewardsのページ
+- サイドバーのスタイルを変更し、よりクリーンに
+- 壁紙を追加して縦に表示
+- グローバル検索
+- $\KaTeX$ 線形式
 
 <!-- .slide vertical=true -->
 
