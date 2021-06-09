@@ -3,114 +3,46 @@ layout: home
 ---
 ここがトップページです？（仮翻訳）
 
-私のブログのトピックを使用してのおかげで、ここでは、コマンドラインを必要とせずに、サイト/ドキュメント/プレゼンテーションページをすばやく生成するためにいくつかの簡単な操作に従ってください
+<div class="grid"></div>
 
-  最初のステップ
-このリンクをクリック https://github.com/wu-kan/wu-kan.github.io/fork、サンプル サイト fork をリポジトリに配置します。 fork はサンプル サイトであり、fork テーマ リポジトリは不完全です。
+<div class="warning"></div>
 
-  ステップ2
-Fork の後のリポジトリで[Setting]を選択し、リポジトリ名を別の your-name.github.io。
-たとえば、ここで使用した GitHub のトスモール サイズは @Mizuno-Ai で、名前は Mizuno-Ai.github.io。
-TW9GSNUkfv6lsyr8Xh1qKaRjwD
+<div class="base">
+	<button id="activate">
+		<span></span>
+	</button>
+</div>
 
-  さらにカスタマイズ
-上記のすべては、github の Web ページで直接実行できます。 ブログのテストをローカルで実行する場合、またはブログを上位レベルでカスタマイズする場合は、まず次のブログ記事を読むことをお勧めします。
+<div class="box opened" id="cover">
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<span></span><span></span>
+</div>
 
-Jekyll に基づいて個人的なブログを構築します
-個人的なウェブサイトの最適化の旅
-中国語のテキストとタイポグラフィの関連使用を統一し、チームメンバー間のコミュニケーションコストを削減し、ウェブサイトの気質を高め、読書をお勧めします。
-中国語のテキストタイポグラフィは北を指します
-Markdown は書くことに心を痛めました
-Demo
+<div class="hinges"></div>
 
-  ステップ2
-Fork の後のリポジトリで[Setting]を選択し、リポジトリ名を別の your-name.github.io。
-たとえば、ここで使用した GitHub のトスモール サイズは @Mizuno-Ai で、名前は Mizuno-Ai.github.io。
+<div class="text">
+	SELF-&thinsp;DESTRUCT
+</div>
 
-  ステップ3
-Setting を下に引き出して Github Pages のオプションを見つけ、Source を None から master branch に変更し、Custom domain を URL に変更します。
-ちょっと待って、あなたのブログのアドレスにアクセスできるように求める必要があります! あなたはすでにほとんど成功しています
+<div id="panel">
+	<div id="msg">DEVICE SELF-DESTRUCTION </div>
+	<div id="time">9</div>
+	<span id="abort">ABORT</span>
+	<span id="detonate">DETONATE</span>
+</div>
 
-  ステップ4
-リポジトリのルートに戻り、独自の_config.yml を設定し、どれだけの変更が理解できます。 ほとんどの構成項目にはコメントを追加しました。
-yaml 形式のインデントは重要であり、元のインデントを壊しないように注意してください。
+<div id="turn-off"></div>
+<div id="closing"></div>
 
-  ステップ5
-リポジトリのルートに戻り、ブログ投稿を_posts/フォルダを開く/保存します。 Create new file をポイントすると、独自のブログを書くことができます。 これらの記事で使用される形式は Markdown で、ファイル サフィックス名が md の非常に使いやすい書式設定されたテキスト マークアップ言語です。
-ファイルの名前付けには日付-titbit.md が必要です。
-書き込み後、構成変更操作と同様に、ドット Commit コミット。 今、あなたのブログを訪問し、あなたのブログの記事は、アーカイブページの一番上にすでに表示されている見つける! Enjoy~
+<div id="restart"><button id="reload"></button></div>
 
-  さらにカスタマイズ
-上記のすべては、github の Web ページで直接実行できます。 ブログのテストをローカルで実行する場合、またはブログを上位レベルでカスタマイズする場合は、まず次のブログ記事を読むことをお勧めします。
+<div id="mute"></div>
 
-Jekyll に基づいて個人的なブログを構築します
-個人的なウェブサイトの最適化の旅
-
-中国語のテキストとタイポグラフィの関連使用を統一し、チームメンバー間のコミュニケーションコストを削減し、ウェブサイトの気質を高め、読書をお勧めします。
-中国語のテキストタイポグラフィは北を指します
-Markdown は書くことに心を痛めました
-
-ファイル構造
-私のテーマは、主に次のレンダリングページのスタイルを実装しています。
-
-layout: default
-poole/lanyon ベースのページでは、サイドバーとサイドバーと一緒に移動できる warp が提供されます。
-
-layout: page
-layout: default に基づいて、タイトル バー.masthead とテキスト ボックスの .content が提供されます。
-
-layout: archive
-layout: page ベースのアーカイブ ページ。
-
-例: https://wu-kan.cn/archive/
-
-私は現在、それとは満足していないし、将来のリリースで変更される可能性があります。
-
-layout: tags
-layout: page ベースのタブ。
-
-例: https://wu-kan.cn/tags/
-
-私は現在、それとは満足していないし、将来のリリースで変更される可能性があります。
-
-layout: comments
-layout: pageのメッセージページに基づいて,メッセージプラグインはValineを用いた.
-
-例: https://wu-kan.cn/comments/
-
-layout: post
-layout:comments のブログ投稿ページに基づいて、各ブログ投稿に説明情報を追加します。
-
-例: Jekyll に基づいて個人用ブログを作成します
-
-layout: page404
-テンセントのボランティアに基づく公益404ページ。
-
-例: https://wu-kan.cn/404
-
-layout: merger
-merger ベースの報酬ページ。
-
-例: https://wu-kan.cn/merger/
-
-layout: home
-バージョンv3.1.0から、layout:homeは、ブログのカバーとして、またはpresentationとして使用することができますhakimel/reveal.jsに基づいて、簡潔なショーケースページを実装するために私によって書き直されました!
-
-例: グラフの期末ページ
-
-markdown ファイルに水平ページ区切り記号と垂直ページ区切り記号 (カスタマイズ可能) を挿入すると、すぐに使い始めることができます。 このドキュメントは、使用例として使用できます。
-
-推奨される区切り記号は垂直ラベルと水平ラベルで、vscode-markdown-preview-enhanced のタグと互換性があり、ローカル プレビューが容易です。
-
-ホーム ページ以外のページをレンダリングする場合は、markdown の yaml ヘッダーに layout: home を設定します。 もちろん、ホーム ページのレンダリングに使用しない場合は、ホーム ページの layout を他のページに設定することもできます。
-
-特定のページのサイドバーをデフォルトでオンにしますか? yaml ヘッドに jekyll-theme-WuK: sidebar_open: true を設定します。
-
-特定のページのサイドバーを非表示にしたいですか? yaml ヘッドに jekyll-theme-WuK: sidebar_disable: true を設定します。 は、すべてのsidebar_open上書きされます。
-
-これは、まだ開発中の機能です(主に美しく洗練されたディスプレイのテーマを見つけることができません)、提案/需要はissueを歓迎します!
-
-その他の機能については、hakimel/revealの.js! たとえば、Esc キーを押して ppt アウトラインを生成します
-
-
-
+<audio id="alarm">
+	<source src="https://josetxu.com/demos/sounds/self-destruct-alarm-count.mp3" type="audio/mpeg">
+</audio>
